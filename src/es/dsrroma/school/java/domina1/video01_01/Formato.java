@@ -19,6 +19,4 @@ public class Formato {
 	public String toString() {
 		return PREFIJO + decorado + ";" + enfasis + color + SUFIJO;
 	}
-
-
 }

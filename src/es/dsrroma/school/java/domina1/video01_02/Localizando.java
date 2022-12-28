@@ -15,10 +15,14 @@ public class Localizando {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(construyeSujeto(RECURSOS.getString("manzana"), RECURSOS.getString("roja")));
-		System.out.println(construyeSujeto(RECURSOS.getString("manzana"), RECURSOS.getString("verde")));
-		System.out.println(construyeSujeto(RECURSOS.getString("pelota"), RECURSOS.getString("roja")));
-		System.out.println(construyeSujeto(RECURSOS.getString("pelota"), RECURSOS.getString("verde")));
+		System.out.println(
+			construyeSujeto(RECURSOS.getString("manzana"), RECURSOS.getString("roja")));
+		System.out.println(
+			construyeSujeto(RECURSOS.getString("manzana"), RECURSOS.getString("verde")));
+		System.out.println(
+			construyeSujeto(RECURSOS.getString("pelota"), RECURSOS.getString("roja")));
+		System.out.println(
+			construyeSujeto(RECURSOS.getString("pelota"), RECURSOS.getString("verde")));
 		System.out.println();
 
 		System.out.println(MessageFormat.format(RECURSOS.getString("frase"),
