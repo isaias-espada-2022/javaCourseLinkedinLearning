@@ -9,7 +9,7 @@ public class Coloreando {
 	private static final Formato CIAN_BRILLANTE_SUBRAYADO = 
 		new Formato(Color.CIAN, Decorado.SUBRAYADO, Enfasis.BRILLANTE);
 	private static final Formato FONDO = 
-		new Formato(Color.CIAN, Decorado.NORMAL, Enfasis.FONDO);
+		new Formato(Color.AMARILLO, Decorado.NORMAL, Enfasis.FONDO);
 
 	public static void main(String[] args) {
 		System.out.print("Coloreando... ");
@@ -17,6 +17,7 @@ public class Coloreando {
 		System.out.print(VERDE_NEGRITA + "en verde negrita" + Formato.RESET);
 		System.out.print(CIAN_BRILLANTE_SUBRAYADO + "azulito" + Formato.RESET);
 		System.out.print(FONDO + "fondo" + Formato.RESET);
+		System.out.print("normal de nuevo");
 		System.out.println();
 	}
 
