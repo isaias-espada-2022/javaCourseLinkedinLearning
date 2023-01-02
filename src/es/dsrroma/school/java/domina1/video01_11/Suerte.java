@@ -69,7 +69,7 @@ public class Suerte
         max = 10;
         System.out.println("Numeros entre " + min + " y " + max);
         for (int i = 0; i < 100; i ++) {
-            int num = r.nextInt(max + min + 1) + min;
+            int num = r.nextInt(max - min + 1) + min;
             System.out.print(num + " ");
         }
         System.out.println();
