@@ -1,4 +1,4 @@
-package es.dsrroma.school.java.domina1.video01_22;
+package es.dsrroma.school.java.domina1.video01_19;
 
 public class Bicicleta {
 	private String marca;
