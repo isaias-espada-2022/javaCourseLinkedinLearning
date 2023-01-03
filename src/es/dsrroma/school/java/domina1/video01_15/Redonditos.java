@@ -29,8 +29,8 @@ public class Redonditos {
     System.out.println("DF UP:\t\t" + df.format(-Math.PI)); // -3.1416
 
     df.setRoundingMode(RoundingMode.CEILING);
-    System.out.println("DF FLOOR:\t" + df.format(Math.PI));   // 3.1416
-    System.out.println("DF FLOOR:\t" + df.format(-Math.PI)); // -3.1415
+    System.out.println("DF CEILING:\t" + df.format(Math.PI));   // 3.1416
+    System.out.println("DF CEILING:\t" + df.format(-Math.PI)); // -3.1415
     System.out.println();
 
     System.out.println("DF #.##:\t" + df.format(1)); // 1
