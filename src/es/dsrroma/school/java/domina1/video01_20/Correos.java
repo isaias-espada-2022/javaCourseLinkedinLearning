@@ -13,7 +13,7 @@ public class Correos {
 			+ "@[a-zA-Z0-9.-]+$";
 	
 	private static final String PATRON_OWASP = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*"
-			+ "@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}";
+			+ "@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}$";
 
 	private static final String[] PATRONES = {PATRON_SIMPLE, PATRON_ESTRICTO, PATRON_RFC, PATRON_OWASP};
 	
