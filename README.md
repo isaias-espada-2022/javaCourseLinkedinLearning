@@ -1,7 +1,7 @@
 # Domina Java
 Este es el repositorio del curso de LinkedIn Learning `[Domina Java]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![Nombre completo del curso][lil-thumbnail-url] 
+![image](https://user-images.githubusercontent.com/71371373/219664037-32676b91-d149-47cc-a441-ad6b2ebed85e.png)
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
@@ -22,7 +22,7 @@ Este curso está integrado con GitHub Codespaces, un entorno de desarrollo insta
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/mariona-nadal).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
+[lil-course-url]: https://www.linkedin.com/learning/domina-java/avanzando-con-java
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
 
 
