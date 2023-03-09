@@ -1,7 +1,7 @@
 # Domina Java
 Este es el repositorio del curso de LinkedIn Learning `[Domina Java]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![image](https://user-images.githubusercontent.com/71371373/219664037-32676b91-d149-47cc-a441-ad6b2ebed85e.png)
+![image](https://user-images.githubusercontent.com/71371373/224061291-29c94dfb-cfbe-4c8e-9f96-1f2371a1c38a.png)
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
