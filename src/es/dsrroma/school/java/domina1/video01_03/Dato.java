@@ -34,6 +34,6 @@ public class Dato {
 	
  	@Override
 	public String toString() {
-		return nombre + " / " + DTF.format(fecha) + " / " + NF.format(sueldo);
+		return nombre + " / " + DTF.format(fecha) + " / " + NF.format(sueldo) + "\n";
 	}
 }
