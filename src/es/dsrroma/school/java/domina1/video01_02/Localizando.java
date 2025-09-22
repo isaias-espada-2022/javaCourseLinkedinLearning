@@ -25,7 +25,7 @@ public class Localizando {
 			construyeSujeto(RECURSOS.getString("pelota"), RECURSOS.getString("verde")));
 		System.out.println();
 
-		System.out.println(MessageFormat.format(RECURSOS.getString("frase"),
+		System.out.println(MessageFormat.format(RECURSOS.getString("frase2"),
 				construyeSujeto(RECURSOS.getString("pelota"), RECURSOS.getString("roja"))));
 	}
 
