@@ -3,6 +3,8 @@ package es.dsrroma.school.java.domina1.video01_04;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ public class EscribirSalida {
 	public static void main(String[] args) {
 		try(
 				Scanner s = new Scanner(new File("entrada.txt"));
-				FileOutputStream fos = new FileOutputStream("salida.txt")
+				FileOutputStream fos = new FileOutputStream("salida-" + ahora() + ".txt");
 			) {
 			List<Dato> leidos = LeerEntrada.leerDatos(s);
 			for (Dato dato : leidos) {
@@ -27,5 +29,11 @@ public class EscribirSalida {
 		}
 
 	}
+
+	public static String ahora() {
+        LocalDateTime ahora = LocalDateTime.now();
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH:mm:ss");
+        return ahora.format(formato);
+  }
 
 }
