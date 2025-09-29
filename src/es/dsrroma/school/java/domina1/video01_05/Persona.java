@@ -1,5 +1,7 @@
 package es.dsrroma.school.java.domina1.video01_05;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public class Persona implements Comparable<Persona>
@@ -16,6 +18,30 @@ public class Persona implements Comparable<Persona>
     {
         this.nombre = nombre;
         this.apellidos = apellidos;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public LocalDate getFechaNacimiento() {
+        return fechaNacimiento;
+    }
+
+    public void setFechaNacimiento(LocalDate fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
 
@@ -42,7 +68,7 @@ public class Persona implements Comparable<Persona>
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(apellidos, fechaNacimiento, nombre);
+		return Objects.hash(apellidos, fechaNacimiento, nombre, ahora());
 	}
 
 	@Override
@@ -58,4 +84,20 @@ public class Persona implements Comparable<Persona>
                 && Objects.equals(fechaNacimiento, other.fechaNacimiento)
 				&& Objects.equals(nombre, other.nombre);
 	}
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", fechaNacimiento=" + fechaNacimiento +
+                '}';
+    }
+
+    public static String ahora() {
+        LocalDateTime ahora = LocalDateTime.now();
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH:mm:ss");
+        return ahora.format(formato);
+    }
+
 }
